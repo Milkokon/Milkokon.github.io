@@ -22,5 +22,5 @@ text-decoration: none;
 }
 .main-menu a:hover{ /*меняет цвет кнопки при наведении*/
     color: lightgreen;
-    transition: 0.5s;
+    transition: 1s;
 }
