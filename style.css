@@ -6,4 +6,6 @@ margin: 0%;
 .header {
 background-image: url(/images/background.jpg); /*ссылка на изображение*/
 background-size: cover;
+color: white;
+background-color: black;
 }
