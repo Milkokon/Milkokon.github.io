@@ -11,4 +11,12 @@ background-color: black;
 .name {
 text-transform: uppercase;
 }
-
+.main-menu {
+font-size: 20px;
+font-weight: bold;
+padding: 20px 0;
+}
+.main-menu a{
+color: white;
+text-decoration: none;
+}
