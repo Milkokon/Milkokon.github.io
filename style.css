@@ -20,3 +20,7 @@ padding: 20px 0;
 color: white;
 text-decoration: none;
 }
+.main-menu a:hover{ /*меняет цвет кнопки при наведении*/
+    color: lightgreen;
+    transition: 0.5s;
+}
