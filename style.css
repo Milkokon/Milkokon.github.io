@@ -3,26 +3,48 @@ font-family: 'Roboto', sans-serif;
 margin: 0%;
 }
 .header {
-background-image: url(/images/background.jpg); /*ссылка на изображение*/
+background-image: url(images/background.jpg); /*ссылка на изображение*/
 background-size: cover;
 color: white;
 background-color: black;
+text-align: center;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 3%;
+padding-bottom: 3%;
 }
 .name {
 text-transform: uppercase;
 }
 .main-menu {
-font-size: 20px;
+font-size: 16px;
 font-weight: bold;
-padding: 20px 0;
+text-align: left;
 }
 .main-menu a{
 color: white;
+padding-right: 10px;
 text-decoration: none;
+transition: 0.5s
 }
 .main-menu a:hover{ /*меняет цвет кнопки при наведении*/
-    color: lightgreen;
-    transition: 1s;
+    color: rgb(138, 5, 255);
+    transition: 0.5s;
+    
+}
+.tg {
+    color: aqua;
+    text-decoration: none;
+    transition: 0.5s
+}
+.tg:hover {
+    color: rgb(138, 5, 255);
+    transition: 0.5s;
+}
+.main{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 90px
 }
 .btn {
     text-decoration: none;
@@ -32,4 +54,45 @@ text-decoration: none;
     background-color: black;
     padding: 10px;
     border-radius: 5px;
+    transition: 0.5s
+}
+.btn:hover{
+    background-color: rgb(138, 5, 255);
+    transition: 0.5s;
+}
+.hoverimage {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.aboutme {
+    padding-top: 2%;
+}
+.footer {
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.butn {
+    margin-top: 20px;
+    margin-bottom: 6%;
+}
+.table {
+    width: 650px;
+  border-top: 7px solid rgb(43, 129, 17);
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 3px solid #949494;
+}
+td {
+    text-align: left;
+      padding: 10px;
+      border: 3px solid rgb(86, 86, 86);
 }
